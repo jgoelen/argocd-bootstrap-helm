@@ -1,7 +1,14 @@
 # Argo-CD Bootstrap using Helm
 
 
+## Initial installation
 
+Argo-CD bootstrapping:
+
+```bash
+cd test-cluster/argocd-bootstrap
+helm install --create-namespace -n argocd argocd .
+```
 
 
 ## Config
