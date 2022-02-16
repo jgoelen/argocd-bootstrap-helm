@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/jgoelen/demo-app-helm
-    targetRevision: head
+    targetRevision: HEAD
     path: .
     helm:
       valueFiles:
