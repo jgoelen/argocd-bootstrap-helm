@@ -1,0 +1,9 @@
+apiVersion: v2
+name: argocd-bootstrap
+description: A Helm chart for bootstrapping Argo-CD
+type: application
+version: 0.1.0
+dependencies:
+  - name: argo-cd
+    version: "3.33.5"
+    repository: "https://argoproj.github.io/argo-helm/"
