@@ -12,7 +12,7 @@ spec:
   source:
     path: test-cluster/argocd-bootstrap/
     repoURL: https://github.com/jgoelen/argocd-bootstrap-helm.git
-    targetRevision: HEAD
+    targetRevision: ldap_config
   syncPolicy:
     syncOptions:
         - CreateNamespace=true
