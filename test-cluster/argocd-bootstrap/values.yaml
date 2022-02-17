@@ -36,7 +36,7 @@ argo-cd:
               # startTLS: true
 
               # Path to a trusted root certificate file. Default: use the host's root CA.
-              rootCA: /etc/dex/ldap.ca
+              # rootCA: /etc/dex/ldap.ca
 
               # A raw certificate file can also be provided inline.
               # rootCAData: ( base64 encoded PEM file )
